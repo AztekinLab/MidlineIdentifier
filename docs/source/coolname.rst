@@ -1,27 +1,25 @@
 Documentation
 =============
 
-coolname.Budoids\_class class
-------------------------------
 The ``Budoids_class`` class
 *****************************
-.. autoclass:: coolname.Budoids_class
+.. automodule:: coolname.Budoids_class
    :members:
    :undoc-members:
    :show-inheritance:
 
-coolname.adata\_class class
-----------------------------
+The ``adata_class`` class
+*****************************
 
-.. autoclass:: coolname.adata_class
+.. automodule:: coolname.adata_class
    :members:
    :undoc-members:
    :show-inheritance:
 
-coolname.image\_class class
-----------------------------
+The ``image_class`` class
+*****************************
 
-.. autoclass:: coolname.image_class
+.. automodule:: coolname.image_class
    :members:
    :undoc-members:
    :show-inheritance:
