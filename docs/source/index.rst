@@ -9,6 +9,7 @@ Welcome to coolname's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
 intro
 coolname
 
