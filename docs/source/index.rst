@@ -10,8 +10,8 @@ Welcome to coolname's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-intro
-coolname
+   intro
+   coolname
 
 Indices and tables
 ==================
