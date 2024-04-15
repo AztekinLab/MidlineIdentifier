@@ -1,7 +1,7 @@
 # COOLNAME -- Spatially quantify gene expression
 *COOLNAME* allows comparison of the spatial dynamics and polarization of gene profiles across budoids of varying sizes. A more detailed description of the method can be found in [our paper](https://doi.org/).
 
-#![Schematics](./figs/Schematics.png)
+<!---[Schematics](./figs/Schematics.png)-->
 
 
 ## Installation
