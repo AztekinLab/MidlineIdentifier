@@ -23,7 +23,7 @@ pip install .
 
 
 ## Usage
-Please see the [documentation](https://budoids.readthedocs.io/en/latest/) for full explanation.
+Please see the [documentation](https://coolnameaztekin.readthedocs.io/en/latest/) for full explanation.
 
 ### Quick start
 ```console
