@@ -5,6 +5,8 @@ requires = ["setuptools>=40.8.0",
             "oldest-supported-numpy"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+py-modules = []
 
 [project]
 name = "coolname"

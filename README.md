@@ -23,9 +23,9 @@ pip install .
 
 
 ## Usage
+Please see the [documentation](https://budoids.readthedocs.io/en/latest/) for full explanation.
 
-quick start
+### Quick start
 ```console
 python test.py --dir ./Budoid_1A --sample Budoid_1A
 ```
-Please see the [documentation](https://budoids.readthedocs.io/en/latest/) for full explanation.
