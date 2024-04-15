@@ -27,5 +27,5 @@ Please see the [documentation](https://budoids.readthedocs.io/en/latest/) for fu
 
 ### Quick start
 ```console
-python test.py --dir ./Budoid_1A --sample Budoid_1A
+python example.py --dir ./Budoid_1A --sample Budoid_1A
 ```
