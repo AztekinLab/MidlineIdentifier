@@ -24,24 +24,24 @@ The ``image_class`` class
    :undoc-members:
    :show-inheritance:
 
-coolname.io module
-------------------
+The ``coolname.io`` module
+*****************************
 
 .. automodule:: coolname.io
    :members:
    :undoc-members:
    :show-inheritance:
 
-coolname.plotting module
-------------------------
+The ``coolname.plotting`` module
+*****************************
 
 .. automodule:: coolname.plotting
    :members:
    :undoc-members:
    :show-inheritance:
 
-coolname.utilis module
-----------------------
+The ``coolname.utilis`` module
+*****************************
 
 .. automodule:: coolname.utilis
    :members:
