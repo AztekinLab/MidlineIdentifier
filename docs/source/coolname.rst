@@ -3,7 +3,8 @@ Documentation
 
 coolname.Budoids\_class class
 ------------------------------
-
+The ``Budoids_class`` class
+*****************************
 .. autoclass:: coolname.Budoids_class
    :members:
    :undoc-members:

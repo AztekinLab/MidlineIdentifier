@@ -13,8 +13,6 @@ Welcome to coolname's documentation!
 intro
 coolname
 
-
-
 Indices and tables
 ==================
 
