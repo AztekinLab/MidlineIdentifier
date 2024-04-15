@@ -1,29 +1,26 @@
-coolname package
-================
+Documentation
+=============
 
-Submodules
-----------
-
-coolname.Budoids\_class module
+coolname.Budoids\_class class
 ------------------------------
 
-.. automodule:: coolname.Budoids_class
+.. autoclass:: coolname.Budoids_class
    :members:
    :undoc-members:
    :show-inheritance:
 
-coolname.adata\_class module
+coolname.adata\_class class
 ----------------------------
 
-.. automodule:: coolname.adata_class
+.. autoclass:: coolname.adata_class
    :members:
    :undoc-members:
    :show-inheritance:
 
-coolname.image\_class module
+coolname.image\_class class
 ----------------------------
 
-.. automodule:: coolname.image_class
+.. autoclass:: coolname.image_class
    :members:
    :undoc-members:
    :show-inheritance:
