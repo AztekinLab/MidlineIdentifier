@@ -35,11 +35,12 @@ parser.add_argument('--outdir', default = None, help = 'Dictrectory to the outpu
 args = parser.parse_args()
 
 
-
-# budoid = MIL.Budoids_class.Budoid(args)
+print('Creating Budoids object...')
+budoid = MIL.Budoids_class.Budoid(args)
 
 ##========= run wrapper
-# budoid.run_wrapper()
+budoid.run_wrapper()
+print('Done testing!')
 
 
 ##========= run step by step
