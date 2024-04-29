@@ -29,5 +29,5 @@ Please see the [documentation](https://midlineidentifier.readthedocs.io/en/lates
 
 ### Quick start
 ```console
-python example.py --dir ./Budoid_1A --sample Budoid_1A
+python example.py --dir ./data/Budoid_1A --sample Budoid_1A
 ```
