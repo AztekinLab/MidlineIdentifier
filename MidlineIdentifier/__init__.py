@@ -1,3 +1,4 @@
+from . import MidlineIdentifier
 from . import adata_class
 from . import image_class
 from . import Budoids_class
