@@ -330,8 +330,8 @@ class Img:
         corners = _CornerDetector(self.seg, min_distance = 30, correct = False)
         (x1, y1), (x2, y2) = self.GetStartEnd()
 
-        dist1 = EuclideanDist(corners, (x1, y1))
-        dist2 = EuclideanDist(corners, (x2, y2))
+        dist1 = EuclideanDist(corners,  np.array([(x1, y1)]))
+        dist2 = EuclideanDist(corners,  np.array([(x2, y2)]))
 
         pt1 = corners[np.argmin(dist1)]
         pt2 = corners[np.argmin(dist2)]

@@ -154,7 +154,7 @@ class Budoid:
         # find match loc on path for each cell
         for cell in tqdm(cells, desc = 'Projecting each cell to the path'):
 
-            dist = utilis.EuclideanDist(path, cell)
+            dist = utilis.EuclideanDist(path, np.array([cell]))
             dist = dist / prob_take
 
             idx = np.argmin(dist)

@@ -96,9 +96,6 @@ def EuclideanDist(pts, pt):
     if not isinstance(pts, np.ndarray):
         pts = np.array(pts)
 
-    if not isinstance(pt, np.ndarray):
-        pt = np.array(pt)
-
     if pt.shape[0] != 1:
         raise ValueError("pt must be of size one.")
 
