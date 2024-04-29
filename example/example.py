@@ -1,6 +1,6 @@
 '''
 
-This script aims to provide examples of the functionalities of coolname
+This script aims to provide examples of the functionalities of MidlineIdentifier
 
 '''
 

@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 py-modules = []
 
 [project]
-name = "coolname"
+name = "MidlineIdentifier"
 version = "1.0.0"
 description = "Polarization analysis"
 readme = "README.md"
