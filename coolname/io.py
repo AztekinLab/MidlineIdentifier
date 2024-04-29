@@ -8,7 +8,7 @@ def SaveObj(obj, filename = None):
 
     Parameters
     ----------
-    obj : :obj:`~coolname.Budoids_class.Budoid`
+    obj : :obj:`~MidlineIdentifier.Budoids_class.Budoid`
         Budoid object
     filename : :class:`str`
         File name of data file.

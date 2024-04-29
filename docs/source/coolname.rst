@@ -3,7 +3,7 @@ Documentation
 
 The ``Budoids_class`` class
 *****************************
-.. automodule:: coolname.Budoids_class
+.. automodule:: MidlineIdentifier.Budoids_class
    :members:
    :undoc-members:
    :show-inheritance:
@@ -11,7 +11,7 @@ The ``Budoids_class`` class
 The ``adata_class`` class
 *****************************
 
-.. automodule:: coolname.adata_class
+.. automodule:: MidlineIdentifier.adata_class
    :members:
    :undoc-members:
    :show-inheritance:
@@ -19,31 +19,31 @@ The ``adata_class`` class
 The ``image_class`` class
 *****************************
 
-.. automodule:: coolname.image_class
+.. automodule:: MidlineIdentifier.image_class
    :members:
    :undoc-members:
    :show-inheritance:
 
-The ``coolname.io`` module
+The ``MidlineIdentifier.io`` module
 *****************************
 
-.. automodule:: coolname.io
+.. automodule:: MidlineIdentifier.io
    :members:
    :undoc-members:
    :show-inheritance:
 
-The ``coolname.plotting`` module
+The ``MidlineIdentifier.plotting`` module
 *****************************
 
-.. automodule:: coolname.plotting
+.. automodule:: MidlineIdentifier.plotting
    :members:
    :undoc-members:
    :show-inheritance:
 
-The ``coolname.utilis`` module
+The ``MidlineIdentifier.utilis`` module
 *****************************
 
-.. automodule:: coolname.utilis
+.. automodule:: MidlineIdentifier.utilis
    :members:
    :undoc-members:
    :show-inheritance:
@@ -51,7 +51,7 @@ The ``coolname.utilis`` module
 Module contents
 ---------------
 
-.. automodule:: coolname
+.. automodule:: MidlineIdentifier
    :members:
    :undoc-members:
    :show-inheritance:

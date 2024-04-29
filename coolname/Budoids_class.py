@@ -26,9 +26,9 @@ class Budoid:
 
     Attributes
     ----------
-    img : :class:`~coolname.image_class.Img`
+    img : :class:`~MidlineIdentifier.image_class.Img`
         Image object
-    data : :class:`~coolname.adata_class.Adata`
+    data : :class:`~MidlineIdentifier.adata_class.Adata`
         Single cell object
     sample : :class:`str`
         Sample identifier. Will be store in `adata.obs['sample']`. Useful when concanating multiple Adata objects.
@@ -76,19 +76,19 @@ class Budoid:
 
     def FindPath(self, **kwagrs):
         """
-        Identify the morphological midline of the structure. A wrapper function of :func:`~coolname.image_class.Img.FindPath`. See :func:`~coolname.image_class.Img.FindPath` for more detail.
+        Identify the morphological midline of the structure. A wrapper function of :func:`~MidlineIdentifier.image_class.Img.FindPath`. See :func:`~MidlineIdentifier.image_class.Img.FindPath` for more detail.
 
         Parameters
         ----------
         kwagrs
-            Additonal arguments to pass to :func:`~coolname.image_class.Img.FindPath`
+            Additonal arguments to pass to :func:`~MidlineIdentifier.image_class.Img.FindPath`
         """
 
         self.img.FindPath(**kwagrs)
 
     def ADProcess(self):
         """
-        Preprocessing of single cell dataset. A wrapper function of :func:`~coolname.adata_class.Aata.Preprocessing`. See :func:`~coolname.adata_class.Aata.Preprocessing` for more detail.
+        Preprocessing of single cell dataset. A wrapper function of :func:`~MidlineIdentifier.adata_class.Aata.Preprocessing`. See :func:`~MidlineIdentifier.adata_class.Aata.Preprocessing` for more detail.
 
         """
 
@@ -209,12 +209,12 @@ class Budoid:
 
     def FindOrientation(self, **kwargs):
         """
-        Orient the coords based on the provided genelists. A wrapper function of :func:`~coolname.adata_class.Adata.FindOrientation`. See :func:`~coolname.adata_class.Adata.FindOrientation` for more detail.
+        Orient the coords based on the provided genelists. A wrapper function of :func:`~MidlineIdentifier.adata_class.Adata.FindOrientation`. See :func:`~MidlineIdentifier.adata_class.Adata.FindOrientation` for more detail.
 
         Parameters
         ----------
         kwagrs
-            Additonal arguments to pass to :func:`~coolname.adata_class.Adata.FindOrientation`
+            Additonal arguments to pass to :func:`~MidlineIdentifier.adata_class.Adata.FindOrientation`
 
         Examples
         --------
@@ -250,14 +250,14 @@ class Budoid:
 
     def FindSVG(self, coords, sample = 'sample', **kwargs):
         """
-        Finds spatially variable genes (SVGs) for each of the identity classes in a dataset. This should be done on the sample level. A wrapper function of :func:`~coolname.adata_class.Adata.FindSVG`.
+        Finds spatially variable genes (SVGs) for each of the identity classes in a dataset. This should be done on the sample level. A wrapper function of :func:`~MidlineIdentifier.adata_class.Adata.FindSVG`.
 
         Parameters
         ----------
         sample : :class:`str` (Default: `sample`)
             Sample identifier. Must be one of the `.obs.columns`
         kwagrs
-            Additonal arguments to pass to :func:`~coolname.adata_class.Adata.FindSVG`
+            Additonal arguments to pass to :func:`~MidlineIdentifier.adata_class.Adata.FindSVG`
 
 
         """
@@ -279,7 +279,7 @@ class Budoid:
         **kwagrs):
 
         """
-        Finds differentially expressed genes (DEGs) for each of the identity classes in a dataset. A wrapper function of :func:`~coolname.adata_class.Adata.FindDEG`
+        Finds differentially expressed genes (DEGs) for each of the identity classes in a dataset. A wrapper function of :func:`~MidlineIdentifier.adata_class.Adata.FindDEG`
 
         Parameters
         ----------
@@ -352,7 +352,7 @@ class Budoid:
         save : :class:`bool` (default: `True`)
             If `True`, save the processed data into pickle file.
         kwagrs
-            Additonal arguments to pass to :func:`~coolname.io.SaveObj`
+            Additonal arguments to pass to :func:`~MidlineIdentifier.io.SaveObj`
 
         """
         logging.info("Running wrapper function...")
@@ -379,8 +379,8 @@ class Budoid:
 
         Parameters
         ----------
-        object_list : :class:`list` of :class:`~coolname.Budoids_class.Budoid`
-            A list of :class:`~coolname.Budoids_class.Budoid` to merge
+        object_list : :class:`list` of :class:`~MidlineIdentifier.Budoids_class.Budoid`
+            A list of :class:`~MidlineIdentifier.Budoids_class.Budoid` to merge
 
         """
         for attribute, value in self.__dict__.items():

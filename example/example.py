@@ -4,7 +4,7 @@ This script aims to provide examples of the functionalities of coolname
 
 '''
 
-import coolname
+import MidlineIdentifier as MIL
 import argparse
 import sys, os
 from anndata import ImplicitModificationWarning
@@ -36,7 +36,7 @@ args = parser.parse_args()
 
 
 
-# budoid = coolname.Budoids_class.Budoid(args)
+# budoid = MIL.Budoids_class.Budoid(args)
 
 ##========= run wrapper
 # budoid.run_wrapper()
@@ -56,8 +56,8 @@ args = parser.parse_args()
 
 
 
-# budoid1 = coolname.io.ReadObj('data/Budoid_1A/Budoids.pkl')
-# budoid2 = coolname.io.ReadObj('data/Budoid_3H/Budoids.pkl')
+# budoid1 = MIL.io.ReadObj('data/Budoid_1A/Budoids.pkl')
+# budoid2 = MIL.io.ReadObj('data/Budoid_3H/Budoids.pkl')
 
 ##========= DEG test
 # groupby = 'condition'
@@ -84,4 +84,4 @@ args = parser.parse_args()
 
 ##========= concat and plotting
 # budoid1.Concat([budoid2])
-# coolname.plotting.trend_plot(budoid1, features = 'Acan', groupby = 'batch', save = True)
+# MIL.plotting.trend_plot(budoid1, features = 'Acan', groupby = 'batch', save = True)

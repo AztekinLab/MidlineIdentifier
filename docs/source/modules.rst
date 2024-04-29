@@ -1,7 +1,7 @@
-coolname
+MidlineIdentifier
 ========
 
 .. toctree::
    :maxdepth: 4
 
-   coolname
+   MidlineIdentifier

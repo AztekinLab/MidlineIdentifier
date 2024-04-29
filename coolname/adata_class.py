@@ -39,7 +39,7 @@ class Adata:
     def __init__(self, fad, sample, outdir):
 
         """
-        Constructs all the necessary attributes for the :class:`~coolname.adata_class.Adata`.
+        Constructs all the necessary attributes for the :class:`~MidlineIdentifier.adata_class.Adata`.
 
         Parameters
         ----------
@@ -48,7 +48,7 @@ class Adata:
             Path to single cell object. Will be load into an anndata object.
 
         sample : :class:`str`
-            Sample identifier. Will be store in ``adata.obs['sample']``. Useful when concanating multiple :class:`~coolname.adata_class.Adata` instances.
+            Sample identifier. Will be store in ``adata.obs['sample']``. Useful when concanating multiple :class:`~MidlineIdentifier.adata_class.Adata` instances.
         outdir : :class:`str`
             Output directory to save files
 
@@ -143,7 +143,7 @@ class Adata:
         plot : :class:`bool` (default: `True`)
             Set to ``True`` by default. If True, save teh plot into ``'Orientation_score.pdf'`` in the output directory (`.outdir`)
         kwargs
-            Additonal arguments to pass to :func:`~coolname.adata_class.Adata.EnrichBins`
+            Additonal arguments to pass to :func:`~MidlineIdentifier.adata_class.Adata.EnrichBins`
 
 
         """

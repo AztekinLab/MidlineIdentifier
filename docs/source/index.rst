@@ -1,9 +1,9 @@
-.. coolname documentation master file, created by
+.. MidlineIdentifier documentation master file, created by
    sphinx-quickstart on Mon Apr 15 16:08:49 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to coolname's documentation!
+Welcome to MidlineIdentifier's documentation!
 ====================================
 
 .. toctree::
@@ -11,7 +11,7 @@ Welcome to coolname's documentation!
    :caption: Contents:
 
    intro
-   coolname
+   MidlineIdentifier
 
 Indices and tables
 ==================
