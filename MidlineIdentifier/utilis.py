@@ -93,7 +93,7 @@ def EuclideanDist(pt, pts):
         Euclidean distance
     """
 
-    if not instances(pts, np.ndarray):
+    if not isinstance(pts, np.ndarray):
         pts = np.array(pts)
 
     if len(pt) != 1:
