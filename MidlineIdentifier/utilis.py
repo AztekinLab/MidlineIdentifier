@@ -96,10 +96,10 @@ def EuclideanDist(pts, pt):
     if not isinstance(pts, np.ndarray):
         pts = np.array(pts)
 
-    if len(pt) != 1:
+    if pt.shape[0] != 1:
         raise ValueError("pt must be of size one.")
 
-    if len(pts) == 1:
+    if pts.shape[0] == 1:
         dist = np.linalg.norm(pts - pt)
     else:
         dist = np.linalg.norm(pts - pt, axis=1)
