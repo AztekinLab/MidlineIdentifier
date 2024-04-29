@@ -20,7 +20,7 @@ conda activate MLI
 
 Finally, install `MidlineIdentifier`:
 ```console
-pip install .
+pip install -e .
 ```
 
 
@@ -29,5 +29,6 @@ Please see the [documentation](https://midlineidentifier.readthedocs.io/en/lates
 
 ### Quick start
 ```console
+cd example
 python example.py --dir ./data/Budoid_1A --sample Budoid_1A
 ```

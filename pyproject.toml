@@ -6,7 +6,15 @@ requires = ["setuptools>=40.8.0",
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = []
+py-modules = ["adata_class",
+              "Budoids_class",
+              "image_class",
+              "io",
+              "plotting",
+              "utilis"]
+
+[tool.setuptools.packages]
+find = {}  # Scan the project directory with the default parameters
 
 [project]
 name = "MidlineIdentifier"
