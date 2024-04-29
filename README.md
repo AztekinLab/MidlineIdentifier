@@ -32,3 +32,5 @@ Please see the [documentation](https://midlineidentifier.readthedocs.io/en/lates
 cd example
 python example.py --dir ./data/Budoid_1A --sample Budoid_1A
 ```
+
+test
