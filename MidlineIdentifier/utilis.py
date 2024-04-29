@@ -78,14 +78,14 @@ def ScaleMinMax(x):
 
 
 
-def EuclideanDist(pt, pts):
+def EuclideanDist(pts, pt):
     """
     Calculate the Euclidean distance between one point and other point(s).
 
     Parameters
     ----------
-    pt : :class:`array_like` of size one
     pts : :class:`array_like`
+    pt : :class:`array_like` of size one
 
     Returns
     -------
