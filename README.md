@@ -20,7 +20,7 @@ conda activate MLI
 
 Finally, install `MidlineIdentifier`:
 ```console
-pip install -e .
+pip install .
 ```
 
 
