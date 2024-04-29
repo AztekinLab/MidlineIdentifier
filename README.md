@@ -5,18 +5,21 @@
 
 
 ## Installation
-Create and activate a fresh conda environment:
 
+Download
 ```console
+git clone https://github.com/AztekinLab/MidlineIdentifier.git
+```
+
+Create and activate a fresh conda environment:
+```console
+cd MidlineIdentifier
 conda create -n MLI python=3.9
 conda activate MLI
 ```
 
 Finally, install `MidlineIdentifier`:
-
 ```console
-git clone https://github.com/AztekinLab/MidlineIdentifier.git
-cd MidlineIdentifier
 pip install .
 ```
 
